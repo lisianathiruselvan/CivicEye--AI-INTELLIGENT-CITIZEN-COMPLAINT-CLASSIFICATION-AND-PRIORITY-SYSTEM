@@ -3,7 +3,6 @@
 
 CivicEye is an AI-powered intelligent system designed to automatically classify citizen complaints and determine their priority level for faster and more effective civic administration. The system leverages Natural Language Processing (NLP) and Machine Learning techniques to analyze unstructured complaint data and route issues to the appropriate municipal authorities.
 
----
 
 ## Introduction
 
@@ -13,7 +12,6 @@ Traditional manual complaint handling processes are slow, inconsistent, and inef
 CivicEye addresses these challenges by introducing automation into complaint classification and prioritization. By applying AI-driven text analysis and predictive modeling, the system automatically identifies the nature of complaints and assigns priority levels.
 This intelligent approach reduces response time, improves operational efficiency, and enhances transparency in civic service delivery.
 
----
 
 ## Problem Statement
 
@@ -35,7 +33,7 @@ Absence of data-driven insights makes it difficult to allocate resources optimal
 
 Develop CivicEye, an AI-powered system that automatically classifies civic complaints into predefined categories and assigns priority levels (High, Medium, Low) to enable faster action and improved public service delivery.
 
----
+
 
 ## Project Scope
 
@@ -61,7 +59,6 @@ Backend system for complaint analysis and decision automation.
 Interactive dashboard for administrators.
 Complete documentation including architecture, algorithms, and workflows.
 
----
 
 ## Inclusions
 
@@ -71,7 +68,7 @@ Machine learning model training and evaluation.
 Priority-based complaint filtering and visualization.
 Integration of prediction models into a working system interface.
 
----
+
 
 ## Exclusions
 
@@ -79,7 +76,6 @@ No physical IoT-based complaint sensors.
 No mobile application development (web interface only).
 Does not cover legal escalation processes or enforcement actions.
 
----
 
 ## Data
 
@@ -88,7 +84,6 @@ Text-based complaint descriptions.
 Categorical labels for complaint type and priority.
 Preprocessed using normalization, stop-word removal, lemmatization, and vectorization.
 
----
 
 ## Limitations
 
@@ -97,7 +92,7 @@ Preprocessed using normalization, stop-word removal, lemmatization, and vectoriz
 3. Language Constraints: Initial models may support limited languages.
 4. Model Dependency: Performance depends on quality and diversity of training data.
 
----
+
 
 ## Methodology
 
@@ -125,14 +120,14 @@ Administrators view complaints with filters for category and priority.
 Action Routing:
 Complaints are forwarded to relevant departments for resolution.
 
----
+
 
 ## Architecture Diagram
 
 <img width="1024" height="1536" alt="ChatGPT Image Feb 6, 2026, 09_04_50 PM (1)" src="https://github.com/user-attachments/assets/c7a9dbca-cc74-4edd-b580-c6a5839f2394" />
 
 
----
+
 
 
 ## Design – Use Case Diagram
@@ -140,21 +135,21 @@ Complaints are forwarded to relevant departments for resolution.
 <img width="683" height="339" alt="image" src="https://github.com/user-attachments/assets/f091bd7a-2d56-486a-96b7-cc2e8e293e58" />
 
 
----
+
 
 ## Class Diagram
 
 <img width="453" height="546" alt="image" src="https://github.com/user-attachments/assets/385b432d-8b4b-4f53-99fd-49507d35706e" />
 
 
----
+
 
 ## Sequence Diagram
 
 <img width="617" height="424" alt="image" src="https://github.com/user-attachments/assets/b0d84e5b-446f-4648-819b-3f7fa7181c52" />
 
 
----
+
 
 ## Algorithm Used
 
@@ -167,7 +162,7 @@ Rule-Based Priority Mapping – to assign severity levels based on keywords and 
 
 Random Forest improves reliability by aggregating decisions from multiple trees, minimizing overfitting and handling noisy civic data effectively.
 
----
+
 
 ## Hardware Selection
 
@@ -183,7 +178,7 @@ Operating System: Windows / Linux
 
 Local or cloud-based databases for complaint records and trained models.
 
----
+
 
 ## Software Selection
 
@@ -196,7 +191,7 @@ Data Visualization: Matplotlib, Plotly, Streamlit
 Version Control: Git & GitHub
 Development Environment: VS Code / Jupyter Notebook
 
----
+
 
 ## Implementation
 
@@ -209,7 +204,7 @@ Rule-based logic assigns priority levels based on complaint severity.
 A web-based interface displays filtered complaints and analytical insights.
 The system enables real-time classification and scalable deployment.
 
----
+
 
 ## Output
 
@@ -220,7 +215,7 @@ Users submit complaints through a structured form or email-based system.
 <img width="653" height="286" alt="image" src="https://github.com/user-attachments/assets/2f63e72e-bc2d-4e5b-b853-5d34f42d2f0b" />
 
 
----
+
 
 ### Fetch Emails Interface
 
@@ -229,7 +224,7 @@ Displays categorized complaints, priority levels, trend analytics, and filters.
 <img width="652" height="233" alt="image" src="https://github.com/user-attachments/assets/37ef5382-ee72-4b54-a230-ecf7f6f41754" />
 
 
----
+
 
 ### Complaint Table View
 
@@ -238,7 +233,7 @@ Shows predicted category and priority for each complaint.
 <img width="656" height="214" alt="image" src="https://github.com/user-attachments/assets/63c177af-b0cd-4609-9b08-d8b5bfd4a280" />
 
 
----
+
 
 ### Complaint Filtering Options
 
@@ -256,7 +251,7 @@ Complaints organized into High, Medium, and Low priority.
 
 
 
----
+
 
 ## Conclusion
 
@@ -264,7 +259,7 @@ CivicEye demonstrates the effective application of AI in smart governance by aut
 
 By transforming unstructured citizen grievances into actionable insights, CivicEye contributes to transparent, responsive, and data-driven urban administration.
 
----
+
 
 ## Future Work
 
@@ -274,7 +269,7 @@ Integration with mobile applications.
 Predictive analytics for identifying recurring civic issues.
 Expansion to national-level smart city infrastructures.
 
----
+
 
 ## References
 
@@ -288,6 +283,6 @@ Sentence-BERT: Reimers & Gurevych (2019).
 
 Smart City Governance Reports, Government of India.
 
----
+
 
 
